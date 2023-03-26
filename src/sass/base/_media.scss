@@ -1,0 +1,108 @@
+@media (max-width:1200px) {
+
+};
+
+@media (max-width:991px) {
+    .promo {
+        min-height: 650px;
+        padding: 21px 20px 93px 20px;
+        &__wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 90px;
+        }
+}};
+
+@media (max-width:767px) {
+    .promo {
+        min-height: 650px;
+        padding: 21px 20px 93px 20px;
+        &__wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 90px;
+        }
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &__logo {
+            width: 190px;
+            img {
+                width: 100%;
+            }
+        }
+        &__official {
+            color: #ffffff;
+            font-size: 12px;
+            font-weight: 500;
+            text-align: center;
+            span {
+                display: block;
+                font-size: 18px;
+            }
+        }
+        &__phone {
+            display: block;
+            color: #ffffff;
+            font-size: 18px;
+            font-weight: 700;
+            &:hover {
+                color: #fff;
+                text-decoration: none;
+            }
+        }
+        &__contacts {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            a {
+                display: none
+            }
+        }
+    }
+}};
+
+@media (max-width:575px) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &__logo {
+            width: 190px;
+            img {
+                width: 100%;
+            }
+        }
+        &__official {
+            color: #ffffff;
+            font-size: 12px;
+            font-weight: 500;
+            text-align: center;
+            span {
+                display: block;
+                font-size: 18px;
+            }
+        }
+        &__phone {
+            display: block;
+            color: #ffffff;
+            font-size: 18px;
+            font-weight: 700;
+            &:hover {
+                color: #fff;
+                text-decoration: none;
+            }
+        }
+        &__contacts {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            a {
+                display: none
+            }
+        }
+    }
+};
