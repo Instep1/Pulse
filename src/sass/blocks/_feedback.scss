@@ -1,0 +1,31 @@
+.feedback {
+    padding-bottom: 71px;
+    &__review {
+        margin-top: 70px;
+        display: flex;
+    }
+    &__img {
+        margin-right: 62px;
+    }
+    &__subtitle {
+        font-size: 18px;
+        font-weight: 700;
+        text-align: left;
+        color: #0d0d0d;
+    }
+    &__count {
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: 300;
+        text-align: left;
+        color: #646464;
+    }
+    &__descr {
+        margin-top: 19px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 16px;
+        text-align: left;
+        color: #0d0d0d;
+    }
+}
